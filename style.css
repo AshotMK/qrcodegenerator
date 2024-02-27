@@ -50,7 +50,7 @@ body{
 	display: flex;
 	align-items: center;
 }
-@media only screen and (max-width: 1200px) {
+@media(max-width: 1200px) {
   body {
     .container{
 		width: 90%;
@@ -62,21 +62,21 @@ body{
 		background: #fff;
 		border-radius: 10px;
 	}
-	  	  .container p{
-			font-weight: 600;
-			font-size: 6em;
-			margin-bottom: 8px;
-		}
-		.container input{
-			width: 100%;
-			height: 300px;
-			border: 1px solid green;
-			outline: 0;
-			padding: 10px;
-			margin: 10px 0 20px;
-			border-radius: 5px;
-			font-size: 3em;
-		}
+	.container p{
+		font-weight: 600;
+		font-size: 6em;
+		margin-bottom: 8px;
+	}
+	.container input{
+		width: 100%;
+		height: 300px;
+		border: 1px solid green;
+		outline: 0;
+		padding: 10px;
+		margin: 10px 0 20px;
+		border-radius: 5px;
+		font-size: 3em;
+	}
 		.container button{
 			width: 100%; 
 			height: 200px;
