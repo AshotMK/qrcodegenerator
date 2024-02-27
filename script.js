@@ -1,3 +1,8 @@
+if (window.innerWidth > 600) {
+            // Redirect if the screen width is greater than 600 pixels (adjust as needed)
+            window.location.href = "#";
+        }
+
 let imgBox = document.getElementById("imgBox");
 let qrImage = document.getElementById("qrImage");
 let qrText = document.getElementById("qrText");
